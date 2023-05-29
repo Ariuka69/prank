@@ -1,5 +1,5 @@
 # Specify the file path to the new wallpaper image
-$wallpaperPath = $HOME + Downloads\Rickroll.jpg
+$wallpaperPath = "$HOME + Downloads\Rickroll.jpg"
 
 # Set the wallpaper using the SystemParametersInfo function from user32.dll
 Add-Type -TypeDefinition @"
