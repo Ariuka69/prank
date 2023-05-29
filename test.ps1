@@ -1,5 +1,5 @@
 # Specify the file path to the new wallpaper image
-$wallpaperPath = "$env:TMP" + "\troll-face-meme.jpg"
+$wallpaperPath = "$HOME" + "\troll-face-meme.jpg"
 
 # Set the wallpaper using the SystemParametersInfo function from user32.dll
 Add-Type -TypeDefinition @"
